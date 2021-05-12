@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+	<remote  name="krishiv"
+		fetch="https://github.com/krishiv8190" />
+	<remote  name="geopd"
+         	fetch="https://github.com/geopd" />
+	<remote  name="darkhz"
+		fetch="https://github.com/darkhz" />
+ 
+ 	<project path="device/xiaomi/sakura" name="device_xiaomi_sakura-2" remote="krishiv" revision="main" clone-depth="1" />
+  <project path="vendor/xiaomi" name="vendor_xiaomi_sakura" remote="geopd" revision="lineage-18.1" clone-depth="1" />
+	<project path="kernel/xiaomi/msm8953" name="revvz_sakura" remote="darkhz" revision="beta-4.9-Q" clone-depth="1" />
+
+</manifest>
