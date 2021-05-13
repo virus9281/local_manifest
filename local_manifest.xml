@@ -17,6 +17,5 @@
 	<project path="kernel/xiaomi/msm8953" name="revvz_sakura" remote="krishiv" revision="beta-4.9-Q" clone-depth="1" />
 	<project path="vendor/custom/prebuilts" name="vendor_custom_prebuilts" remote="geopd" revision="master" clone-depth="1" />
 	<project path="prebuilts/gcc/linux-x86/aarch64/aarch64-elf" name="gcc-arm64" remote="mvaisakh" revision="gcc-master" clone-depth="1" />
-	<project path="hardware/qcom-caf/msm8996/audio" name="audio" remote="frost" revision="caf-msm8996-r" clone-depth="1" />
 
 </manifest>
