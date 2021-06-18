@@ -3,19 +3,18 @@
 
 	<remote  name="krishiv"
 		fetch="https://github.com/krishiv8190" />
-	<remote  name="geopd"
-         	fetch="https://github.com/geopd" />
+	<remote  name="mahajan"
+         	fetch="https://github.com/mahajant99" />
 	<remote  name="darkhz"
-		fetch="https://github.com/darkhz" />
+		fetch="https://github.com/Couchpotato-sauce" />
 	<remote  name="mvaisakh"
 		fetch="https://github.com/mvaisakh" />
 	<remote  name="frost"
 		fetch="https://github.com/SuperCosmicBeing" />
  
  	<project path="device/xiaomi/sakura" name="device_xiaomi_sakura-2" remote="krishiv" revision="main" clone-depth="1" />
-        <project path="vendor/xiaomi" name="vendor_xiaomi_sakura" remote="geopd" revision="lineage-18.1" clone-depth="1" />
-	<project path="kernel/xiaomi/msm8953" name="revvz_sakura" remote="krishiv" revision="beta-4.9-Q" clone-depth="1" />
-	<project path="vendor/custom/prebuilts" name="vendor_custom_prebuilts" remote="geopd" revision="master" clone-depth="1" />
-	<project path="prebuilts/gcc/linux-x86/aarch64/aarch64-elf" name="gcc-arm64" remote="mvaisakh" revision="gcc-master" clone-depth="1" />
+        <project path="vendor/xiaomi" name="vendor_xiaomi" remote="mahajan" revision="eleven" clone-depth="1" />
+	<project path="kernel/xiaomi/msm8953" name="kernel_xiaomi_sleepy" remote="darkhz" revision="eleven" clone-depth="1" />
+
 
 </manifest>
